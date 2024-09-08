@@ -4,3 +4,5 @@ for = para
 let = ettang
 return = itoli
 function = y
+
+display = ipasingang

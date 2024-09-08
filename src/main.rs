@@ -1,4 +1,8 @@
-use std::{env, fs, io};
+use std::{
+    env,
+    fs,
+    io,
+};
 
 #[derive(Debug)]
 enum TokenType {
@@ -94,7 +98,7 @@ fn main() -> io::Result<()> {
 
     let code = convert_to_rust(&tokens);
 
-    println!("{}", code);
+    fs::write("output.rs", code)?;
 
     Ok(())
 }
@@ -111,7 +115,9 @@ fn convert_to_rust(tokens: &Vec<Token>) -> String {
             }
             TokenType::Separator => code.push_str(&token.value),
             TokenType::Literal => code.push_str(&token.value),
-            _ => {}
+            _ => {
+                // handle other token types
+            }
         }
     }
 

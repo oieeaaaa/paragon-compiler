@@ -1,1 +1,14 @@
-ipasingang("kunnasi enteru mundo");
+ipasingang("vurange");
+ipasingang("umay ka pakarenuwang y gowang");
+
+y amongang(x, y):
+    itoli x + y
+
+result = amongang(2, 3)
+
+ngem result < 5:
+    print("Result is less than 5")
+bakkang:
+    print("Result is greater than or equal to 5")
+
+ipasingang(result)
