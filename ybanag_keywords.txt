@@ -1,0 +1,6 @@
+if = ngem
+else = bakkang
+for = para
+let = ettang
+return = itoli
+function = y

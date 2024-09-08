@@ -1,0 +1,20 @@
+# Compiled files
+/target/
+
+# Rust/Cargo specific files
+**/*.rs.bk
+**/*.rs.swp
+**/*.rs.swo
+**/*.rs.swn
+**/*.rs.bak
+**/*.rs.tmp
+
+# IDEs and editors
+/.idea/
+/.vscode/
+/*.iml
+
+# Other
+.DS_Store
+*.log
+*.tmp
